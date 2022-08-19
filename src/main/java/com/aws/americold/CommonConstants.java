@@ -1,4 +1,4 @@
-package com.aws.s3.constants;
+package com.aws.americold;
 
 public class CommonConstants {
 	

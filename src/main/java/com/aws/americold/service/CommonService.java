@@ -1,4 +1,4 @@
-package com.aws.s3.service;
+package com.aws.americold.service;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;

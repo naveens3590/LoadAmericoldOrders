@@ -1,4 +1,4 @@
-package com.aws.s3.constants;
+package com.aws.americold;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -24,7 +24,7 @@ import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.amazonaws.services.s3.model.CannedAccessControlList;
 import com.amazonaws.services.s3.model.PutObjectRequest;
-import com.aws.s3.service.CommonService;
+import com.aws.americold.service.CommonService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class AmericoldHandler implements RequestHandler<Object, Object> {
