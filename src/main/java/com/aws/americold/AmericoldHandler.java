@@ -104,7 +104,7 @@ public class AmericoldHandler implements RequestHandler<Object, Object> {
 		String folderName = CommonConstants.FOLDER_NAME;
 		Path tempFile = null;
 		try {
-			tempFile = Files.createTempFile("americold" + date, null);
+			tempFile = Files.createTempFile("americold"+date, null);
 			List<String> content = getData();
 			Files.write(tempFile, content, StandardOpenOption.APPEND);
 		} catch (IOException e) {

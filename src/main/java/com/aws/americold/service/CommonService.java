@@ -9,7 +9,7 @@ import com.amazonaws.services.s3.model.PutObjectRequest;
 
 public class CommonService {
 	/**
-	 * This method first deletes all the files in given folder and than the folder
+	 * This method creates a folder and add the content to the file 
 	 * itself
 	 */
 	public static void createFolder(String bucketName, String folderName, AmazonS3 client,String SUFFIX) {
