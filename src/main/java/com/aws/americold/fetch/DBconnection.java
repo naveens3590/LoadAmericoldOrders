@@ -1,4 +1,4 @@
-package com.aws.americold;
+package com.aws.americold.fetch;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

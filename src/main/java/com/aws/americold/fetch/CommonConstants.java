@@ -1,4 +1,4 @@
-package com.aws.americold;
+package com.aws.americold.fetch;
 
 public class CommonConstants {
 	

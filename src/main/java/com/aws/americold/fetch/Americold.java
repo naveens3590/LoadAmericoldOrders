@@ -1,8 +1,14 @@
-package com.aws.americold;
+package com.aws.americold.fetch;
 
+import java.io.Serializable;
 import java.sql.Date;
 
-public class Americold {
+public class Americold implements Serializable{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	private int Order_Id; 
 	

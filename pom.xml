@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>americold</groupId>
-  <artifactId>americold</artifactId>
+  <groupId>LoadAmericoldOrders</groupId>
+  <artifactId>LoadAmericoldOrders</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>americold</name>
+  <name>LoadAmericoldOrders</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -15,6 +15,19 @@
   </properties>
 
   <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20220320</version>
+</dependency>
+  <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1</version>
+</dependency>
+  
 	  <dependency>
 	    <groupId>commons-io</groupId>
 	    <artifactId>commons-io</artifactId>
