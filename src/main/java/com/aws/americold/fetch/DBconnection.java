@@ -1,3 +1,8 @@
+/**
+* DB connection class
+*
+* @author Naveen Kumar
+*/
 package com.aws.americold.fetch;
 
 import java.sql.Connection;

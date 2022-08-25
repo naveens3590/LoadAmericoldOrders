@@ -1,3 +1,8 @@
+/**
+* Entity to hold americold object
+*
+* @author Naveen Kumar
+*/
 package com.aws.americold.fetch;
 
 import java.io.Serializable;

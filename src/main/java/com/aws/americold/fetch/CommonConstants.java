@@ -1,3 +1,8 @@
+/**
+* Constants class
+*
+* @author Naveen Kumar
+*/
 package com.aws.americold.fetch;
 
 public class CommonConstants {
